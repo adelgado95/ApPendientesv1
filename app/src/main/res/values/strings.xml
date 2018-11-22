@@ -1,0 +1,20 @@
+<resources>
+    <string-array name="routes_array">
+        <item>LENOR-01-ROLANDOAREAS</item>
+        <item>LENOR-02-MARISELAMANZANARES</item>
+        <item>LENOR-03-JAVIERCORTEZ</item>
+        <item>LENOR-04-JOSEANTONIOJUAREZ</item>
+        <item>LENOR-05-HERNANLOPEZ</item>
+        <item>LENOR-06-JUANCARLOSPARAJON</item>
+        <item>LENOR-07-WILBERMARTINEZ</item>
+        <item>LENOR8</item>
+        <item>LENOR-13-JOSEMEDINA</item>
+        <item>LENOR-14-YOHANDYLOZA</item>
+        <item>LENOR-15-JUANVARGAS</item>
+        <item>LENOR16</item>
+        <item>LENOR-22-ENNERTZAPATA</item>
+        <item>LENOR-23-WILLIAMDELGADO</item>
+        <item>LENOR-25-ERICKRUIZ</item>
+        <item>LENOR27-ISIDROTERCERO</item>
+    </string-array>
+</resources>

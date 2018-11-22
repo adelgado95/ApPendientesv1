@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B00020</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#B00020</color>
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+    <color name="yellow">#fff4</color>
+    <color name="green">#234f3f</color>
+    <color name="sky">#34f</color>
+    <color name="white">#ffff</color>
+
+
+
+
+</resources>

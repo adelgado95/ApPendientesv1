@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <Spinner
+        android:textAlignment="center"
+        android:id="@+id/routeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/routes_array"
+        ></Spinner>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <Button
+            android:textAlignment="center"
+            android:id="@+id/btnCcargar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CARGAR RUTA"/>
+
+        <Button android:textAlignment="center"
+            android:id="@+id/btnEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VER RUTA"/>
+        <!-- Play around with the above 3 values to modify the clickable
+             area and image alignment with respect to text -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IP Server:"/>
+        <EditText
+            android:id="@+id/tvServer"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="192.168.1.1"/>
+        <!-- Play around with the above 3 values to modify the clickable
+             area and image alignment with respect to text -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_Rcargada"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No ha cargado ninugna ruta"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No ha cargado ninugna ruta"/>
+
+    </LinearLayout>
+
+
+
+        <!-- Play around with the above 3 values to modify the clickable
+             area and image alignment with respect to text -->
+
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="IP Server:"/>
+         <EditText
+             android:layout_width="180dp"
+             android:layout_height="wrap_content" />
+
+     </LinearLayout> -->
+
+</LinearLayout>
